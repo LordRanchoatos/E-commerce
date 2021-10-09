@@ -10,7 +10,7 @@ class SignIn extends React.Component {
     constructor() {
         super();
 
-        this.state ={
+        this.state = {
             email: '',
             password: ''
         }
@@ -57,7 +57,6 @@ class SignIn extends React.Component {
                     </div>
                 </form>
             </div>
-
         )
     }
 
