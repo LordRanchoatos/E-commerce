@@ -61,7 +61,7 @@ class SignUp extends React.Component {
             <div className="sign-up">
                 <h2 className='title'>I do not have an account</h2>
                 <span>Sign in with your email and password</span>
-                <form className='sign-in-form' onSubmit='{this.handleSubmit'>
+                <form className='sign-in-form' onSubmit={this.handleSubmit}>
                     <FormInput 
                         type="text"
                         name='displayName'
